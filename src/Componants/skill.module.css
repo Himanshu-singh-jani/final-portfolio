@@ -1,0 +1,50 @@
+
+
+.about{
+    border-bottom:8px solid yellow;
+    font-weight: 800;
+    font-family: monospace;
+    width: max-content;
+    
+   
+    
+    
+    
+    
+}
+.skillBox{
+    
+ 
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+.skillhead{
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.skillcontainer{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+.logoimg{
+    width: 100%;
+
+}
+.skillpara{
+    font-weight: 700;
+   
+    font-family:cursive;
+  
+}
+.imgcontainer{
+    width: 30%;
+}

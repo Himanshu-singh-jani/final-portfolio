@@ -1,0 +1,53 @@
+ 
+ html{
+  font-size:large;
+ }
+ 
+ 
+ 
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   background-color: transparent;
+ }
+body{
+   color: white;
+   background-color: rgb(30, 30, 30)
+}
+html{
+scroll-behavior: smooth;
+}
+#contactSection{
+  
+  height: max-content;
+  width: 100%;
+  
+}
+#aboutsection{
+   
+  width: 100%;
+ 
+}
+
+
+#skillSection{
+
+  height: max-content;
+  width: 100%;
+  }
+  #inTro{
+   width: 100%;
+    border: 3px solid pink;
+}
+
+#navBar{
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ justify-content:space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}

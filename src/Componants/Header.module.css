@@ -1,0 +1,43 @@
+
+   
+    
+
+ .pages{
+   display: flex;
+   flex-direction: row;
+  
+ }
+ 
+ .menuList{
+  cursor: pointer;
+ margin-left: 2rem;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    
+  
+   
+   }
+   .menuList:hover{
+      color: yellow;
+      border-bottom: 6px solid yellow;
+      transition-duration: 0.3s;
+   }
+
+   
+   
+ .nameAsLogo{
+    /* object-fit: cover; */
+    font-size:26px;
+ 
+   
+ }
+ /*
+ @media only screen and (max-width:495px){
+ 
+   #navBar{
+    flex-direction: row;
+   }
+}  
+*/

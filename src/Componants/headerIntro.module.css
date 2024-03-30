@@ -1,0 +1,88 @@
+
+.leftcontainer{
+    width: 40%;
+}
+.rightcontainer{
+ width: 60%;
+}
+.introContant{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 30px;
+   padding: 20px;
+
+    
+   }
+ .devImage{
+      width: 100%;
+   }
+p{
+    font-size:1.25rem ;
+    font-weight: 200;
+    color: whitesmoke;
+    
+    
+}
+.introName{
+    color: yellow;
+    font-weight: 600;
+    font-size: 4rem;
+    font-size: 60px;
+    
+}
+
+.web{
+    font-size: 3rem;
+    font-weight: 100;
+    width:fit-content;
+    border-right: 2px solid white;
+
+}
+.contactme{
+    color: white;
+    background-color: rgb(214, 214, 3);
+    height: 50px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 20px;
+
+}
+.contactlogo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 10px;
+    
+   
+    
+}
+.whatsapplogo ,.linkedinlogo,.instagramlogo{
+cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 952px){
+ .introContant{
+   
+    flex-direction: column;
+    }
+    .rightcontainer{
+        width: 100%;
+        padding: 10px;
+    }
+    .leftcontainer{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+         }
+        
+
+}
+
+ 

@@ -1,0 +1,65 @@
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+.logocontainer{
+   
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  
+}
+.contactcontainer{
+  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.contactme{
+    border-bottom: 6px solid yellow;
+    width: 50%;
+}
+.gmaillogo{
+    width: 50%; 
+}
+.writingsection{
+    margin-top: 17px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.writingsection input, textarea,button {
+    width: 90%;
+    height: 50px;
+    border: 0.3px solid white;
+    border-radius: 8px !important ;
+    padding: 0px 10px 0px 10px;
+    color: white;
+}
+.textarea{
+    height: 200px;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+    size: 9px;
+    
+   
+}
+.sandbtn{
+    height: 40px;
+  cursor: pointer;
+  color: white;
+}
+.sandbtn:hover{
+    background-color: white;
+    color: black;
+}
+
