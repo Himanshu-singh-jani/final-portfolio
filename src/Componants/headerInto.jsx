@@ -40,9 +40,9 @@ const openlinkdin=()=>{
        <div className={styles.leftcontainer}>
           <p >Hello, my name is</p>
           <h1 className={styles.introName}>Himasnhu Jani</h1>
-           
-          <div className={styles.web}>{typewriter}</div>
           
+          <div className={styles.web}>{typewriter}</div>
+     
           <button className={styles.contactme}type="button" onClick={gotocontact}>contact me</button>
           <div className={styles.contactlogo}>
           <div className={styles.whatsapplogo}> <FaWhatsappSquare  onClick={openwhatsapp}  size={55}> </FaWhatsappSquare> </div>
@@ -56,7 +56,7 @@ const openlinkdin=()=>{
           </div>
             
 
-            
+      
        
        
 

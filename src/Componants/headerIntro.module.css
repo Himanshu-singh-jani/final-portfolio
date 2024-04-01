@@ -1,9 +1,11 @@
 
 .leftcontainer{
     width: 40%;
+    align-items: center;
+    
 }
 .rightcontainer{
- width: 60%;
+ width: 60%; border: 2px solid blue; 
 }
 .introContant{
    display: flex;
@@ -11,6 +13,8 @@
    flex-direction: row;
    gap: 30px;
    padding: 20px;
+   align-items: center;
+   
 
     
    }
@@ -37,6 +41,7 @@ p{
     font-weight: 100;
     width:fit-content;
     border-right: 2px solid white;
+    height: 100px;
 
 }
 .contactme{
@@ -55,6 +60,9 @@ p{
     flex-direction: row;
     width: 80%;
     gap: 10px;
+    align-items: center;
+    
+    
     
    
     
@@ -65,7 +73,7 @@ cursor: pointer;
 }
 
 
-@media only screen and (max-width: 952px){
+@media only screen and (max-width: 950px){
  .introContant{
    
     flex-direction: column;

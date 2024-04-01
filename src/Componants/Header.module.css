@@ -2,15 +2,11 @@
    
     
 
- .pages{
-   display: flex;
-   flex-direction: row;
-  
- }
+
  
  .menuList{
   cursor: pointer;
- margin-left: 2rem;
+  padding: 0px 20px;
     font-size: larger;
     font-weight: 700;
     color: white;
@@ -28,16 +24,22 @@
    
    
  .nameAsLogo{
-    /* object-fit: cover; */
     font-size:26px;
- 
+   }
+ .navcontainer{
+   display: flex;
+   flex-direction: row;  
+   justify-content: space-between;
+   padding:10px 20px;
+   border: 3px solid red;
+   gap: 20px;
+ }
+ @media only screen and (max-width: 950px){
+   .navcontainer{
+      flex-direction: column;
+      text-align: center;
+   
+   }
    
  }
- /*
- @media only screen and (max-width:495px){
- 
-   #navBar{
-    flex-direction: row;
-   }
-}  
-*/
+

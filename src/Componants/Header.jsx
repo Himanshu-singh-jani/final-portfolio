@@ -6,7 +6,8 @@ const Header = () => {
     <>
       <nav  id ="navBar" >
         
-          <p className={styles.nameAsLogo}>Himanshu Singh Jani</p>
+        <div className={styles.navcontainer}>
+          <div className={styles.nameAsLogo}>Himanshu Singh Jani</div>
           <div className={styles.pages}>
             
               <a  className={styles.menuList}  href="#navBar">
@@ -28,6 +29,7 @@ const Header = () => {
               <a  className={styles.menuList} href="#contactSection">
                 Contact
               </a>
+          </div>
           </div>
       </nav>
 
