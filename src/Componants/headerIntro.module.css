@@ -2,10 +2,14 @@
 .leftcontainer{
     width: 40%;
     align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
     
 }
 .rightcontainer{
- width: 60%; border: 2px solid blue; 
+ width: 60%; 
 }
 .introContant{
    display: flex;
@@ -24,6 +28,7 @@
 p{
     font-size:1.25rem ;
     font-weight: 200;
+    margin-bottom: 0px !important;
     color: whitesmoke;
     
     
@@ -60,13 +65,9 @@ p{
     flex-direction: row;
     width: 80%;
     gap: 10px;
-    align-items: center;
-    
-    
-    
+    justify-content: center;
    
-    
-}
+  }
 .whatsapplogo ,.linkedinlogo,.instagramlogo{
 cursor: pointer;
 
@@ -89,8 +90,37 @@ cursor: pointer;
         justify-content: center;
         text-align: center;
          }
+         .contactlogo{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            gap: 10px;
+            justify-content: center;
+          }
+}
+@media only screen and (max-width: 407px){
+    .introName{
+        font-weight: 500;
+        font-size: 3rem;
+        font-size: 50px;
         
-
+    }
+    .web{
+        font-size: 2rem;
+        font-weight: 100;
+        width:max-content;
+    
+        height: 60px;
+    
+    }
+    .contactme{
+        height: 50px;
+        width: max-content;
+        font-size: 30px;
+        font-weight: 600;
+        border-radius: 20px;
+    }
 }
 
  

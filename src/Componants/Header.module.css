@@ -15,6 +15,11 @@
   
    
    }
+   .pages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
    .menuList:hover{
       color: yellow;
       border-bottom: 6px solid yellow;
@@ -31,7 +36,8 @@
    flex-direction: row;  
    justify-content: space-between;
    padding:10px 20px;
-   border: 3px solid red;
+  
+   align-items: center;
    gap: 20px;
  }
  @media only screen and (max-width: 950px){
